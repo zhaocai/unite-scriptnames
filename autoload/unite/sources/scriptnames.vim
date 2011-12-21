@@ -25,7 +25,6 @@ function! s:unite_source.gather_candidates(args, context)
                 \   fnamemodify(fname, ":p")),
                 \ "action__directory": unite#util#substitute_path_separator(
                 \   fnamemodify(fname, ":p:h")),
-                \ "action__text": fname,
                 \ } )
     endfor
     return candidates
