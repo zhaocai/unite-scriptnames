@@ -5,12 +5,13 @@
     Author        : Zhao Cai < caizhaoff@gmail.com >
     URL           : https://github.com/zhaocai/unite-scriptnames
     Date Created  : Wed 21 Dec 2011 09:59:36 PM EST
-    Last Modified : Wed 21 Dec 2011 10:06:51 PM EST
+    Last Modified : Thu 22 Dec 2011 10:21:33 PM EST
     ------------- - ----------------------------------------------------------
 
 ## Introduction
 
-[unite-scriptnames][unite-scriptnames] is a [unite.vim][unite] plugin to find/open runtime scriptnames.
+[unite-scriptnames][unite-scriptnames] is a [unite.vim][unite] plugin to
+find/open runtime scriptnames. It is useful to quickly find and edit runtime scripts.
 
 Requirement:
 
@@ -53,6 +54,11 @@ bundle manager you are using.
 
     call vam#ActivateAddons(['unite-scriptnames'], {'auto_install' : 0})
 
+
+
+## Usage
+
+    :Unite scriptnames
 
 [unite]: https://github.com/Shougo/unite.vim
 [unite-scriptnames]: https://github.com/zhaocai/unite-scriptnames
