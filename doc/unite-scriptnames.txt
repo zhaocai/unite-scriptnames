@@ -1,26 +1,37 @@
-*unite-scriptnames*  A unite.vim plugin to find/open runtime scriptnames
->
-    ------------- - ----------------------------------------------------------
-    Plugin        : unite-scriptnames
-    Author        : Zhao Cai < caizhaoff@gmail.com >
-    URL           : https://github.com/zhaocai/unite-scriptnames
-    Date Created  : Wed 21 Dec 2011 09:59:36 PM EST
-    Last Modified : Thu 22 Dec 2011 10:21:33 PM EST
-    ------------- - ----------------------------------------------------------
+*unite-scriptnames.txt*  A unite.vim plugin to find/open runtime scriptnames
 
-==============================================================================
+===============================================================================
+                                                    *unite-scriptnames-contents*
+Contents ~
+
+ 1. Introduction                                |unite-scriptnames-introduction|
+ 2. Installation                                |unite-scriptnames-installation|
+  1. Option A - Without Plugin Manager [3]
+  2. Option B - With a Plugin Manager [3] ( recommanded )
+ 3. Usage                                              |unite-scriptnames-usage|
+
+===============================================================================
+                                                *unite-scriptnames-introduction*
 Introduction ~
+
+  Plugin         :  unite-scriptnames ~
+  Author         :  Zhao Cai
+  EMail          :  caizhaoff@gmail.com
+  URL            :  https://github.com/zhaocai/unite-scriptnames
+  Date Created   :  Wed 21 Dec 2011 09:59:36 PM EST
+  Last Modified  :  Sat 14 Jan 2012 11:17:06 PM EST
 
 unite-scriptnames [1] is a unite.vim [2] plugin to find/open runtime
 scriptnames. It is useful to quickly find and edit runtime scripts.
 
 Requirement:
 
-+ unite.vim [2]
+ - unite.vim [2]
 
 Latest version: git://github.com/zhaocai/unite-scriptnames.git
 
-==============================================================================
+===============================================================================
+                                                *unite-scriptnames-installation*
 Installation ~
 
 Before you start, please refer to the installation instruction from unite.vim
@@ -29,12 +40,14 @@ Before you start, please refer to the installation instruction from unite.vim
 To install unite-scriptnames [1] ( and usually the same as installing other
 vim plugins )
 
-Option A - Without Plugin Manager [3]
+-------------------------------------------------------------------------------
+Option A - Without Plugin Manager [3] ~
 
 After you install Shougo's unite.vim [2], unarchive the zip file into a
 directory that is under &rtp of your Vim, including ~/.vim dir.
 
-Option B - With a Plugin Manager [3] ( recommanded )
+-------------------------------------------------------------------------------
+Option B - With a Plugin Manager [3] ( recommanded ) ~
 
 If you use plugin managers like Pathogen, vundle, neobundle,
 vim-addon-manager, etc., just unarchive the zip file or clone the
@@ -42,32 +55,27 @@ unite-scriptnames [1] repo from 'git://github.com/zhaocai/unite-scriptnames.git'
 into your local plugin installation directory (most likely '~/.vim/bundle/').
 Then add corresponding command in .vimrc for the bundle manager you are using.
 
-
 Example:
 
-1. vundle:
->
-    Bundle 'zhaocai/unite-scriptnames'
+ - vundle: Bundle 'zhaocai/unite-scriptnames'
 
-2. neobundle:
->
-    NeoBundle 'zhaocai/unite-scriptnames'
+ - neobundle: NeoBundle 'zhaocai/unite-scriptnames'
 
-3. vim-addon-manager:
->
-    call vam#ActivateAddons(['unite-scriptnames'], {'auto_install' : 0})
+ - vim-addon-manager: call vam#ActivateAddons(['unite-scriptnames'],
+   {'auto_install' : 0})
 
-==============================================================================
+===============================================================================
+                                                       *unite-scriptnames-usage*
 Usage ~
 >
     :Unite scriptnames
 
-
-==============================================================================
+===============================================================================
+                                                  *unite-scriptnames-references*
 References ~
 
 [1] https://github.com/zhaocai/unite-scriptnames
 [2] https://github.com/Shougo/unite.vim
-[3] http://vim-scripts.org/vim/tools.html "Vim Plugin Manangers"
+[3] http://vim-scripts.org/vim/tools.html
 
-vim: syntax=help nospell
+vim: ft=help
